@@ -16,7 +16,8 @@ Using [Moment.js](https://momentjs.com/) library to work with date and time.
 
 
 ## image 
-![image](https://user-images.githubusercontent.com/92215345/161639592-2a1b6621-0b72-4ec6-970e-0413afab43c9.png)
+![image](https://user-images.githubusercontent.com/92215345/162697496-64ffe549-1ecb-43a4-929f-d9303326803b.png)
+
 
 
 
