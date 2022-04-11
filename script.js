@@ -143,11 +143,57 @@ textArea17.textContent = Text17
 
 // Change colours of the row based on current time  
 var currentHours = (new Date()).getHours();
+
 var nine = document.getElementById("9am")
-var ten = document.getElementById("9am")
-var elevent  = document.getElementById("9am")
-var nine = document.getElementById("9am")
+var ten = document.getElementById("10am")
+var eleven  = document.getElementById("11am")
+var twelve = document.getElementById("12am")
+var thirteen = document.getElementById("1pm")
+var fourteen = document.getElementById("2pm")
+var fifteen = document.getElementById("3pm")
+var sixteen = document.getElementById("4pm")
+var seventeen = document.getElementById("5pm")
 
 
-// if(currentHours == 9) {
-//     nine.addClass("present")
+
+
+if(currentHours == 9) {
+
+    nine.classList.add("present");
+    
+} else if(currentHours == 10) {
+
+    nine.classList.add("past");
+    ten.classList.add("present");
+
+} else if(currentHours == 11) {
+
+    ten.classList.add("past");
+    eleven.classList.add("present");
+
+} else if(currentHours == 12) {
+
+    eleven.classList.add("past");
+    twelve.classList.add("present");
+} else if(currentHours == 13) {
+
+    twelve.classList.add("past");
+    thirteen.classList.add("present");
+} else if(currentHours == 14) {
+
+    thirteen.classList.add("past");
+    fourteen.classList.add("present");
+} else if(currentHours == 15) {
+
+    fourteen.classList.add("past");
+    fifteen.classList.add("present");
+} else if(currentHours == 16) {
+
+    fifteen.classList.add("past");
+    sixteen.classList.add("present");
+    seventeen.classList.add("future");
+} else if(currentHours == 17) {
+
+    sixteen.classList.add("past");
+    seventeen.classList.add("present");
+} 
